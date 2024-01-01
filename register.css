@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('hospital_img.webp') center/cover no-repeat;
+    color: #050505;
+    text-align: center;
+    background-size: 145%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px; /* Add padding for better spacing */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0e0f10; /* Change heading color for emphasis */
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #0c0c0c;
+}
+
+.register-btn {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3009f2; /* Change button color for emphasis */
+    border-radius: 5px;
+}
+
+.feature-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px; /* Increase margin-top for better separation */
+}
+
+.feature-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #060707; /* Add a thicker border for emphasis */
+    border-radius: 10px; /* Increase border radius for rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Adjust box shadow for depth */
+    text-align: center;
+    margin: 0 10px;
+}
+
+.feature-box h2 {
+    color: #060606;
+    font-size: 1.8em; /* Increase font size for headings */
+    margin-bottom: 15px; /* Increase margin-bottom for better spacing */
+}
+
+.feature-box p {
+    font-size: 1.2em;
+    color: #030202;
+}
